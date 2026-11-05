@@ -1,0 +1,25 @@
+{
+  "target": "schemecode",
+  "model": "Random Forest",
+  "features": [
+    "male_share",
+    "female_share",
+    "transgender_share",
+    "sc_share",
+    "st_share",
+    "general_share",
+    "obc_share",
+    "aadhaar_coverage",
+    "mobile_coverage"
+  ],
+  "classes": [
+    "IGNDPS",
+    "IGNOAPS",
+    "IGNWPS"
+  ],
+  "evaluation": "5-fold StratifiedGroupKFold by district",
+  "dataset_rows": 100,
+  "unique_districts": 34,
+  "purpose": "Exploratory district-level aggregate classification only",
+  "individual_eligibility_validated": false
+}

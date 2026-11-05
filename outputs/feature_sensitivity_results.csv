@@ -1,0 +1,5 @@
+experiment,feature_count,accuracy,balanced_accuracy,macro_f1
+All features,9,0.83,0.8309566250742723,0.8308457711442786
+Without gender proportions,6,0.39,0.39007724301841945,0.3885876931417728
+Without gender and social-category proportions,2,0.39,0.38978015448603687,0.3830685881164879
+Gender proportions only,3,0.8,0.8003565062388591,0.7998805256869773

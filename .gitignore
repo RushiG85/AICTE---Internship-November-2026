@@ -1,0 +1,21 @@
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+NSAP_Project_Env/
+venv/
+.env/
+
+# Secrets
+.env
+*.key
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+.DS_Store
